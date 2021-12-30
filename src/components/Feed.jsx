@@ -11,8 +11,6 @@ const Feed = () => {
   const [pins, setPins] = useState(null);
   const { categoryId } = useParams();
 
-  console.log(categoryId);
-
   useEffect(() => {
     setLoading(true);
 
